@@ -13,13 +13,18 @@
 		<?php
 			require('pages/header.php');
 		?>
-		<div class="row"> 
+		<div class="row">
+		<h2 class="header-text"> welcome to Super Rides</h2> 
+		
+		<div class="large-6 small-12 columns">
+		<h4 class=""> 
+		<a class="hollow button" href="ride/index.php">give a ride</a></h4>
 		</div>
-		<div> 
-		<a href="ride/index.php">give a ride</a>
-		<br>
-		<a href="booking/index.php">get a ride</a>
+		<div class="large-6 small-12 columns">
+		<a class="hollow button" href="booking/index.php">get a ride</a>
 		<!-- <h3>Cancel a booked ride</h3>-->
+		</div>
+		</div>
 	</div>
 
 	<?php
