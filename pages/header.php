@@ -7,7 +7,7 @@
 
         <div class="nav-mobile">
             <ul class="left">
-                <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+                <li><a href="../index.php"><i class="fa fa-home"></i> Home</a></li>
                <!--  <li><a href="#"><i class="fa fa-book"></i> Categories</a></li>
                 <li><a href="#"><i class="fa fa-fire"></i> Most Popular</a></li> -->
             </ul>

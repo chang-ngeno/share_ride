@@ -18,8 +18,9 @@
 			Origin: <input type="text" name="origin"><br/>
 			destination:<input type="text" name="destination"><br/>
 			capacity:<input type="text" name="capacity"><br/>
+			
+			<input class="button" type="reset" value="cancel">
 			<input class="button" type="submit" value="Submit">
-			<input class="close-button" aria-label="Dismiss alert" type="button" type="reset" value="cancel" data-close >
 		</form>
 		<?php
 		require("../pages/footer.php");
