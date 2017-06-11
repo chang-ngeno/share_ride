@@ -5,13 +5,15 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Book Ride</title>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.min.css">
 		<link rel="stylesheet" href="../assets/css/style.css" />
 	</head>
 	<body>
+	<div class="row">
 		<?php
 		require("../pages/header.php");
 		require("../config/config-db.php");
-		
+
 		$con=mysqli_connect($host,$user,$passwd,$dbname);
 		if (!$con){
 			die("could not connect to database!".mysqli_connect_error());
@@ -37,7 +39,9 @@
 		}
 	require("../pages/footer.php");
 	?>
+	</div>
 	<script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.min.js"></script>
 	<script src="js/nav-mobile.js"></script>
 	<script type="text/javascript">
 	</script>
