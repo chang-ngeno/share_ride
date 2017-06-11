@@ -20,7 +20,7 @@
 				
 				<div class="large-6 small-12 columns">
 					<div class="main-content">
-					<img src="assets/images/bg-1.jpeg">
+						<img src="assets/images/bg-1.jpeg">
 						<div class="text-content">
 							<p> search for different cars in your area that have a space</p>
 						</div>
@@ -30,7 +30,7 @@
 				
 				<div class="large-6 small-12 columns">
 					<div class="main-content">
-					<img src="assets/images/bg-1.jpeg">
+						<img src="assets/images/bg-1.jpeg">
 						<div class="text-content">
 							<p> Do you have an extra space on your car?</p>
 							<p></p>
