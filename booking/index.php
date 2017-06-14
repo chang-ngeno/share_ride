@@ -10,7 +10,7 @@
 	</head>
 	<body>
 		<div class="row">
-		    <form action="../ride/book.php" method="POST">
+		    <form action="../ride/book.php" method="GET">
 		    <table border="2px" width='800px'>
 				<tr><td>S/No</td><td>Origin</td><td>Destination</td><td>space available</td><td>Book</td></tr>
 			<?php
@@ -29,8 +29,8 @@
 				<td><?php echo $row['destination'];?></td>
 				<td><?php echo $row['capacity'];?></td>
 				<td>
-					<input type="submit" class="button" value="book">
-					<input type="hidden" name="ride" value= <?php echo $row['ride_id']; ?> >
+					
+					<input type="radio" name="ride" value= <?php echo $row['ride_id']; ?> >
 				</td>
 			</tr>
 		
@@ -42,6 +42,7 @@
 		require("../pages/footer.php");
 		?>
 		Your Email:<input type="text" name="email"><br/>
+		<input type="submit" class="button" value="book">
 		</table>
 		</form>
 	</div>
@@ -49,6 +50,7 @@
 	<script src="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.min.js"></script>
 	<script src="js/nav-mobile.js"></script>
 	<script type="text/javascript">
+	var
 	</script>
 </body>
 </html>

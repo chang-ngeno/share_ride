@@ -18,7 +18,8 @@
 			Origin: <input type="text" name="origin"><br/>
 			destination:<input type="text" name="destination"><br/>
 			capacity:<input type="text" name="capacity"><br/>
-			
+			Gender:Male<input type="radio" name="gender" value="male">
+				Female<input type="radio" name="gender" value="female"><br/>
 			<input class="button" type="reset" value="cancel">
 			<input class="button" type="submit" value="Submit">
 		</form>

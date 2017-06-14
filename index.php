@@ -15,16 +15,16 @@
 				require('pages/header.php');
 			?>
 			<div class="row">
-				<!-- <div class="container" style="background-image: url('<?php echo $bgimage;?>');"> -->
+				<!-- <div class="container" style="background-image: url('<?php //echo $bgimage;?>');"> -->
 				<h2 class="header-text"> welcome to Super Rides</h2>
 				
 				<div class="large-6 small-12 columns">
 					<div class="main-content">
-						<img src="assets/images/bg-1.jpeg">
+						<img src="./assets/images/bg-1.jpeg">
 						<div class="text-content">
 							<p> search for different cars in your area that have a space</p>
 						</div>
-						<a class="hollow button" href="ride/index.php">get a ride</a>
+						<a class="hollow button" href="booking/index.php">get a ride</a>
 					</div>
 				</div>
 				

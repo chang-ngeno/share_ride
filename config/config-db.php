@@ -1,6 +1,7 @@
 <?php
-	$user="rides_inc";
-	$passwd="rides_inc";
+	$user="root";
+	$passwd="";
 	$host="localhost";
 	$dbname="rides_inc";
+	//require("directory.config.php");
 ?>

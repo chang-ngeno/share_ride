@@ -11,7 +11,7 @@
 	<body>
 		<div class="row">
 			<?php
-			$sql_query="update ride set is_booked='Y' where ride_id=".$_POST['ride'].";";
+			$sql_query="update ride set is_booked='Y' where ride_id=".$_GET['ride'].";";
 			require("../config/config-db.php");
 			$con = new mysqli($host,$user,$passwd,$dbname);
 			if (!$con)
@@ -21,6 +21,7 @@
 				if ($con->query($sql_query) === TRUE) {
 				    echo "Ride booking successful";
 				    mail ($_POST['email'],"Confirmation for ride booking","This is to confirm that you have successfully booked a ride..","From: info@sharetide.inc" . "\r\n" );
+				    header ("location:../index.php");
 				} else {
 				    echo "Error booking a ride: " . $con->error;
 				}

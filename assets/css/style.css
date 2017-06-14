@@ -115,6 +115,9 @@ height: 70vh;
 /*background-image: url(../images/bg-1.jpeg);*/
 /*background-image: url(<?php echo $../images/bg-1.jpeg; ?>);*/
 }
+.columns .main-content{
+    padding: 0;
+}
 .main-content{
 height: 100%;
 position: relative;
@@ -133,6 +136,7 @@ overflow: hidden;
 }
 .main-content:hover img{
 transform: scale(1.2)
+z-index: -99;
 }
 .text-content {
 width: 100%;
